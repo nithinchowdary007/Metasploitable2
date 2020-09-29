@@ -1,0 +1,12 @@
+nmap
+===========
+
+nmap  uses raw ip packets to know what hosts are present on the network, what services those hosts are providing, their ports, whether these ports are open or close, what is their versions.
+
+command to search every ports    : nmap -sV -p- [host]  (or) nmap -sV -p0-35535 [host]
+command to search range of ports : nmap -sV -p3000-3500 [host]
+
+Note: we'll use ip adress of our metasploit system to know what services are running on out metasploit system
+
+Note: Once we know what service is running and what version of service is running. we can google that version of that service, so that we can know the vulnerabilities of that version of service which can be used for exploitation.
+
